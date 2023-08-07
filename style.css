@@ -1,8 +1,19 @@
 * {
-  box-sizing: border-box;
   padding: 0%;
   margin: 0%;
+  box-sizing: border-box;
 }
-html {
+html, body {
   font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+#main {
+  position: relative;
+  overflow: hidden;
+}
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
 }

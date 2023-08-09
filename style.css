@@ -17,6 +17,10 @@ body {
   font-family: a;
   src: url('./fonts/jost-variable.ttf');
 }
+@font-face {
+  font-family: b;
+  src: url('./fonts/KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf');
+}
 #page1 {
   height: 100vh;
   width: 100vw;

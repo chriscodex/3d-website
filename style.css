@@ -84,3 +84,12 @@ body {
   justify-content: space-between;
   font-family: a;
 }
+.bottom-page1-inner > button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #0b48ed;
+  font-size: 16px;
+  font-family: b;
+}

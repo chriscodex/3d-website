@@ -65,3 +65,10 @@ body {
   width: 50vw;
   left: 10%;
 }
+.bottom-page1 > h1 {
+  font-family: a;
+  font-size: 5vw;
+  font-weight: 100;
+  line-height: 1;
+  color: #fff;
+}

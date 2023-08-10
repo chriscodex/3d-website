@@ -93,3 +93,8 @@ body {
   font-size: 16px;
   font-family: b;
 }
+.bottom-page1-inner > h4 {
+  font-size: 1.3vw;
+  font-weight: 100;
+  color: #fff;
+}

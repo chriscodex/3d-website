@@ -72,3 +72,9 @@ body {
   line-height: 1;
   color: #fff;
 }
+.bottom-page1-inner {
+  position: absolute;
+  bottom: 0%;
+  height: 35%;
+  width: 100%;
+}

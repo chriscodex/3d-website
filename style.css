@@ -111,3 +111,7 @@ body {
   color: #fff;
   background-color: #0a3cce;
 }
+#page2>h2{
+  margin-bottom: 3vw;
+  font-weight: 100;
+}

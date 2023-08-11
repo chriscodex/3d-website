@@ -52,3 +52,15 @@ document
     document.querySelector('#page2>h1').innerHTML = clutter;
   });
 
+/* Text effect */
+gsap.to('#page2>h1>span', {
+  scrollTrigger: {
+    trigger: `#page2>h1>span`,
+    start: `top bottom`,
+    end: `bottom top`,
+    scroller: `#main`,
+    scrub: 0.5,
+  },
+  stagger: 0.2,
+  color: `#fff`,
+});

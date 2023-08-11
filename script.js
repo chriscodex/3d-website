@@ -40,3 +40,15 @@ function locoScroll() {
 
 locoScroll();
 
+/* Paragraph splitted */
+let clutter = '';
+
+document
+  .querySelector('#page2>h1')
+  .textContent.split(' ')
+  .forEach((dets) => {
+    clutter += `<span>${dets} </span>`;
+
+    document.querySelector('#page2>h1').innerHTML = clutter;
+  });
+
